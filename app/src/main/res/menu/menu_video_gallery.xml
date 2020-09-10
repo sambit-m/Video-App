@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/show_all_videos"
+        android:contentDescription="@string/show_all_videos"
+        android:title="@string/all_videos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/show_bookmarked_videos"
+        android:contentDescription="@string/show_bookmarked_videos"
+        android:title="@string/bookmarked_videos"
+        app:showAsAction="never" />
+</menu>

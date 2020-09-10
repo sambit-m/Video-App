@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Video App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bookmark_removed">Bookmark removed</string>
+    <string name="bookmarked_successfully">Bookmarked successfully</string>
+    <string name="show_all_videos">Show all videos</string>
+    <string name="show_bookmarked_videos">Show bookmarked videos</string>
+    <string name="bookmarked_videos">Bookmarked Videos</string>
+    <string name="all_videos">All Videos</string>
+    <string name="no_bookmarked_videos_found">No bookmarked videos found!</string>
+</resources>

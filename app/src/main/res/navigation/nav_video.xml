@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_video"
+    app:startDestination="@id/videoGalleryFragment">
+
+    <fragment
+        android:id="@+id/videoGalleryFragment"
+        android:name="poc.sambitm.videoapp.ui.videogallery.VideoGalleryFragment"
+        android:label="fragment_video_gallery"
+        tools:layout="@layout/fragment_video_gallery">
+        <action
+            android:id="@+id/action_videoGalleryFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="poc.sambitm.videoapp.ui.video.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+</navigation>
